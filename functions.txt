@@ -1,0 +1,10 @@
+# მაქსიმალური მნიშვნელობა Dictionary_ში
+def max_value(dictionary):
+    return min(dictionary)
+
+# n რიცხვის ფაქტორიალი
+def fact(n):
+    number = 1
+    for x in range(1, n + 1):
+        number = number * x
+    return number
